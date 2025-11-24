@@ -361,15 +361,28 @@ void assert_failed(uint8_t *file, uint32_t line)
 
 <img width="1377" height="880" alt="Screenshot 2025-10-06 081711" src="https://github.com/user-attachments/assets/315a5ce9-82f8-446d-bee6-114abc83d6c9" />
 
-## PULSE AT 450:
+## PULSE AT 700:
 
 <img width="1381" height="891" alt="Screenshot 2025-10-06 081544" src="https://github.com/user-attachments/assets/d5a23909-8636-40fa-b654-9af128949f6a" />
 
-## PULSE AT 750:
+## PULSE AT 900:
 
 <img width="1377" height="878" alt="Screenshot 2025-10-06 081335" src="https://github.com/user-attachments/assets/2d913097-bde0-473e-853f-07954b1a44e0" />
 
+## DUTY CYCLE AND FREQUENCY CALCULATION
 
+
+FOR PULSE AT 500
+
+TON = 6.3510^-3 TOFF = 5.7510^-3 TTOTAL = TON+TOFF=3.1510^-2 + 2.8510^-2 = 610^-2 f=1/TTOTAL=1/(610^-2)=16.6 Hz
+
+FOR PULSE AT 700
+
+TON = 8.7 * 5 * 10^-3 TOFF = 3.7 * 5 * 10^-3 TTOTAL = TON + TOFF = 8.7 * 5 * 10^-3 + 3.7 * 5 * 10^-3 = 0.062 f = 1 / TTOTAL = 1 / 0.062 = 16.129Hz
+
+FOR PULSE AT 900
+
+TON = 11.2510^-3 TOFF = 1.2510^-3 TTOTAL = TON+TOFF = 5.610^-2 + 0.610^-2 = 6.210^-2 f = 1/TTOTAL = 1/(6.210^-2) = 16.1 Hz
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
  
